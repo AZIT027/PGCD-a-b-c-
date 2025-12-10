@@ -15,7 +15,7 @@ int pgcd(int a,int b) {
 int main() { 
     int a,b,c,d,pgcd_abc,init_a,init_b,init_c;  /*Declaration des variables*/
 
-    printf("Entrez deux entiers a, b et c respectivement:\n"); /*Demande de saisie de a,b et c, on utilise \n pour retourner à la ligne*/
+    printf("Entrez les entiers a, b et c respectivement:\n"); /*Demande de saisie de a,b et c, on utilise \n pour retourner à la ligne*/
     scanf("%d %d %d",&a,&b,&c); /*Stockage des valeurs des variables a,b et c*/
     init_a= a;       
     init_b =b;
